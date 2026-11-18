@@ -1,0 +1,6 @@
+services:
+  gotenberg:
+    image: gotenberg/gotenberg:9.5.1-libreoffice-aws-lambda
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
